@@ -1,0 +1,14 @@
+after generating ssh by
+https://help.github.com/articles/generating-ssh-keys/
+
+1.cd f:/xampp/htdocs/
+2. $ git init 
+3.$ git status 
+4.$ git clone git@github.com:tahmina043049/hello-word.git  (http ,ssh)
+5.cd hello-word
+6.$ git add my1.txt or $git add . (my1.txt normally create kora jay)
+7. vim my1.txt (insert key->write something,)-----> esc key-->:x -->enter  
+8. $ git commit -m "first commit or others message as u wish"
+
+9.$ git pull  origin master
+10. git push  origin master
